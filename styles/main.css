@@ -1,0 +1,121 @@
+body {
+    /* display: flex;  
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0; */
+    font-family: 'Veranda';
+    font-size: 20px;
+    padding: 1em;
+    background-image: url("");
+    background-color: #7ccaf1;
+    }
+
+ .flex-container {
+    display: flex;
+    }
+
+.sidebar {
+    flex: 0 1 420px;
+    border: 5px double rgb(0, 66, 92);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    /* order: -1; */
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
+}
+
+.pageHeader {
+    /* flex-basis: 30%; */
+    border: 9px dotted rgb(6, 49, 124);
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Georgia';
+    text-align: center; /* Center align the text in the boxes */
+    font-size: 40px;
+    font-weight: bold
+    }
+
+h1 {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Tahoma'
+    /* border: 2px dotted rgb(6, 124, 75); */
+    }
+
+.martinsFish {
+    display: flex;  
+    flex-flow: row wrap;
+    /* flex-basis: 30%; */
+    margin: auto;
+    padding: 90px;
+    margin: auto;
+    font-family: 'Courier New'; 
+    /* border: 4px dotted rgb(0, 66, 92); */
+    text-align: center;
+    }
+
+.flex-item {
+    background: rgb(92, 175, 220);
+    padding: 2px;
+    width: 290px;
+    height: 20px;
+    margin-top: 7px;
+    font-size: 17px;
+    justify-content: space-evenly;
+    /* text-align: justify;  */
+    /* color: rgb(187, 187, 187);
+    font-weight: bold; */
+  }
+
+.careTips {
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    margin: auto; 
+    font-family: 'Helvitica';
+    justify-content: space-evenly;
+    border: 9px dotted rgb(226, 8, 8);
+}
+
+.flex-tip {
+    background: rgb(95, 174, 217);
+    padding: 2px;
+    width: 290px;
+    height: 25px;
+    margin-top: 10px;
+    font-size: 17px;
+    /* color: rgb(187, 187, 187);
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center; */
+}
+    
+/* .list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    border: 3px dotted rgb(102, 52, 115);
+    padding: 1em;
+    margin: 0.7em;
+    }
+
+.shop {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px dotted rgb(202, 136, 209);
+    padding: 1em;
+    margin: 0.2em;
+    font-size: 15px
+    } */
+
+img {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 3px;
+    }
